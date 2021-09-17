@@ -1,7 +1,7 @@
 # An optimized approach for generating dense thermal point clouds from UAV imagery  
 ![c++](https://img.shields.io/github/languages/top/AlfonsoLRz/RGBThermalFusion) ![license](https://img.shields.io/badge/license-GNU-blue.svg)
 
-This source code is provided along with the manuscript entitled "An optimized approach for generating dense thermal point clouds from UAV imagery" to provide an accurate vision of the described algorithms, including those developed from previous studies. This repository is intended the provide the algoritmic core of our manuscript, rather than providing a desktop application. Therefore, the visualization framework is here omitted.
+This source code is provided along with the manuscript entitled "An optimized approach for generating dense thermal point clouds from UAV imagery" to facilitate an accurate vision of the described algorithms, including those developed from previous studies. This repository is intended the present the algorithmic core of our manuscript rather than providing a desktop application. Therefore, the visualization framework is here omitted.
 
 <p align="center">
   <img src="Images/Introduction.png" width="400px" alt="Introduction">
