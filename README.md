@@ -4,7 +4,7 @@
 This source code is provided along with the manuscript entitled "An optimized approach for generating dense thermal point clouds from UAV imagery" to provide an accurate vision of the described algorithms, including those developed from previous studies. This repository is intended the provide the algoritmic core of our manuscript, rather than providing a desktop application. Therefore, the visualization framework is here omitted.
 
 <p align="center">
-  <img src="Images/Introduction.png" width="800px" alt="Introduction">
+  <img src="Images/Introduction.png" width="400px" alt="Introduction">
 </p>
 
 ___
@@ -44,7 +44,7 @@ ___
 
 `PCL`
 `Pix4D`
-`openGL: ≥ 4.5`
+`OpenGL: ≥ 4.5`
 
 ___
 ### References
