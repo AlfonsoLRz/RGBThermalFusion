@@ -37,20 +37,20 @@ ___
 ___
 ## How to cite
 
-  @article{lopez_optimized_2021,
-  	title = {An optimized approach for generating dense thermal point clouds from {UAV}-imagery},
-  	volume = {182},
-  	issn = {0924-2716},
-  	url = {https://www.sciencedirect.com/science/article/pii/S0924271621002604},
-  	doi = {10.1016/j.isprsjprs.2021.09.022},
-  	urldate = {2023-12-31},
-  	journal = {ISPRS Journal of Photogrammetry and Remote Sensing},
-  	author = {López, Alfonso and Jurado, Juan M. and Ogayar, Carlos J. and Feito, Francisco R.},
-  	month = dec,
-  	year = {2021},
-  	keywords = {GPU computing, Point cloud, Image processing, Occlusion, Thermal imagery, UAV imagery},
-  	pages = {78--95},
-  }
+    @article{lopez_optimized_2021,
+    	title = {An optimized approach for generating dense thermal point clouds from {UAV}-imagery},
+    	volume = {182},
+    	issn = {0924-2716},
+    	url = {https://www.sciencedirect.com/science/article/pii/S0924271621002604},
+    	doi = {10.1016/j.isprsjprs.2021.09.022},
+    	urldate = {2023-12-31},
+    	journal = {ISPRS Journal of Photogrammetry and Remote Sensing},
+    	author = {López, Alfonso and Jurado, Juan M. and Ogayar, Carlos J. and Feito, Francisco R.},
+    	month = dec,
+    	year = {2021},
+    	keywords = {GPU computing, Point cloud, Image processing, Occlusion, Thermal imagery, UAV imagery},
+    	pages = {78--95},
+    }
 ___
 ## TODO
 
