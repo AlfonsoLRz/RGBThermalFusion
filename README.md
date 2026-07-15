@@ -7,7 +7,6 @@ This source code is provided along with the manuscript entitled "An optimized ap
   <img src="Images/Introduction.png" width="400px" alt="Introduction">
 </p>
 
-___
 ## Features
 
 <p align="center">
@@ -33,7 +32,7 @@ ___
 </p>
 
 * *Utilities/* folder wraps histogram methods to analyze the distance between images and the reconstructed thermal point cloud.
-___
+
 ## How to cite
 
     @article{lopez_optimized_2021,
@@ -51,19 +50,16 @@ ___
     	pages = {78--95},
     }
     
-___
 ## TODO
 
 * Complete Doxygen comments for the code.
 
-___
 ### Dependencies
 
 `PCL`
 `Pix4D` (not in this repository, but for generating prior data)
 `OpenGL: ≥ 4.5`
 
-___
 ### References
 
 We implement and include the following research papers:
