@@ -1,7 +1,7 @@
 # An optimized approach for generating dense thermal point clouds from UAV imagery  
 ![c++](https://img.shields.io/github/languages/top/AlfonsoLRz/RGBThermalFusion) ![license](https://img.shields.io/badge/license-GNU-blue.svg)
 
-This source code is provided along with the manuscript entitled "An optimized approach for generating dense thermal point clouds from UAV imagery" to facilitate an accurate vision of the described algorithms, including those developed from previous studies. This repository is intended to present the algorithmic core of our manuscript rather than providing a desktop application. Therefore, the visualization framework is here omitted.
+This source code is provided along with the manuscript entitled "An optimized approach for generating dense thermal point clouds from UAV imagery" to facilitate an accurate vision of the described algorithms, including those developed from previous studies. This repository is intended to present the algorithms described in our manuscript rather than providing a desktop application. Hence, the visualization layer is actually omitted.
 
 <p align="center">
   <img src="Images/Introduction.png" width="400px" alt="Introduction">
@@ -20,20 +20,19 @@ ___
   <img src="Images/ClassificationResult.png" width="600px" alt="Classification">
 </p>
 
-* *DataStructures* contains both BVHs and octrees. Radius octree is based on a previous work mentioned in the References, whereas the MultiInstanceBVH is an optimized approach of a conventional BVH to avoid allocating and deleting memory when it is rebuilt several times.
+* *DataStructures* contains both BVHs and octrees. The radius octree is based on a previous work mentioned in the References, and the MultiInstanceBVH is a conventional BVH, optimized to avoid allocating and deleting memory when it is rebuilt many times.
 
 <p align="center">
   <img src="Images/Octrees.png" width="400px" alt="Octrees">
 </p>
 
-* *Shaders/* folder includes GLSL code related to the construction of a BVH, the rendering of outliers from a point cloud and ray-casting of a point cloud organized in a BVH. In addition, the normal estimation of a point cloud through SVD is included.
+* *Shaders/* folder includes GLSL code related to the construction of a BVH, the rendering of outlier points, and ray-casting of a point cloud indexed in a BVH. We also estimate the normal vectors of a point cloud via Singular Value Decomposition (SVD).
 
 <p align="center">
   <img src="Images/VisualizationAnomalies.png" width="400px" alt="Octrees">
 </p>
 
-
-* *Utilities/* folder wraps histogram methods to analyze the distance between images and reconstructed thermal point cloud.
+* *Utilities/* folder wraps histogram methods to analyze the distance between images and the reconstructed thermal point cloud.
 ___
 ## How to cite
 
@@ -51,22 +50,23 @@ ___
     	keywords = {GPU computing, Point cloud, Image processing, Occlusion, Thermal imagery, UAV imagery},
     	pages = {78--95},
     }
+    
 ___
 ## TODO
 
-* Complete Doxygen comments to code.
+* Complete Doxygen comments for the code.
 
 ___
 ### Dependencies
 
 `PCL`
-`Pix4D`
+`Pix4D` (not in this repository, but for generating prior data)
 `OpenGL: ≥ 4.5`
 
 ___
 ### References
 
-This source code includes the implementation of previous research studies that are following mentioned:
+We implement and include the following research papers:
 
 > D. Meister, J. Bittner. **Parallel Locally-Ordered Clustering for Bounding Volume Hierarchy Construction**. IEEE TVCG, Volume 24, Issue 3, pages 1345-1353, 2018. DOI: https://doi.org/10.1145/3355056.3364554
 
